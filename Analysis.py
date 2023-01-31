@@ -16,7 +16,7 @@ def Analysis(DNA_record):
 	#Printing the GC Content using the gc_fraction module
 	print("GC Content: %0.3f\n" %(gc_fraction(DNA_record.seq)))
 	
-	#printint the complement and reverse complement of the DNA sequence
+	#printing the complement and reverse complement of the DNA sequence
 	print("Complement: %s\n" % (DNA_record.seq.complement()))
 	print("Reverse Complement: %s\n" % (DNA_record.seq.reverse_complement()))
 	
